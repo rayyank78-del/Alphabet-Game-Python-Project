@@ -206,9 +206,9 @@ def print_on_press(letter):
     print(f'The letter "{letter}" has been pressed')
     print(f'The corresponding word is "{dictionary[letter]}"')
     print("")
-    text = font.render((f"{dictionary[letter]}"), True, red)
+    text = font.render((f"{dictionary[letter]}"), True, white)
     
-    screen.fill(green)
+    screen.fill(black)
     try:
 
         img = pygame.image.load(f"{dictionary[letter]}.jpg")
