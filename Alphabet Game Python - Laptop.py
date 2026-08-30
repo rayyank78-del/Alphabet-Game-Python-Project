@@ -170,7 +170,7 @@ done = False
 dictionary = {
 
     "a": "apple",
-    "b": "bandits",
+    "b": "ball",
     "c": "cat",
     "d": "dog", 
     "e": "egg",
